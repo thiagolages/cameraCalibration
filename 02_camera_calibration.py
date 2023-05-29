@@ -86,11 +86,6 @@ np.savetxt("cameraDistortion.txt"   , distortionCoeff   , delimiter=",")
 # f.close()
 
 
-# Undistortion
-
-img = cv.imread('calibrationImages/CU81/CU81_image19.png')
-
-
 # Re-projection error
 
 mean_error = 0
