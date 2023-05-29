@@ -8,7 +8,7 @@ import numpy as np
 width  = 6
 height = 8
 
-calibration_path = 'calibrationImages/CU81_selected/*.png'
+calibration_path = 'calibrationImages/*.png'
 
 print("Starting calibration on folder: "+calibration_path)
 
